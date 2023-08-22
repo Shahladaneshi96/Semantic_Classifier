@@ -66,3 +66,7 @@ rules:
   - intent: battery
   - action: utter_battery
 
+- rule: nlu_fallback
+  steps:
+  - intent: nlu_fallback
+  - action: utter_no_semantic

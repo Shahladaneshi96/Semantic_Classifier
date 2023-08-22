@@ -55,6 +55,8 @@ responses:
   utter_battery:
   - text: "battery"
 
+  utter_no_semantic:
+  - text: "no_semantic_data"
 
 session_config:
   session_expiration_time: 1
