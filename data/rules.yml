@@ -1,13 +1,68 @@
 version: "3.1"
 
 rules:
-
-- rule: Say goodbye anytime the user says goodbye
+- rule: weight
   steps:
-  - intent: goodbye
-  - action: utter_goodbye
+  - intent: weight
+  - action: utter_weight
 
-- rule: Say 'I am a bot' anytime the user challenges
+- rule: size
   steps:
-  - intent: bot_challenge
-  - action: utter_iamabot
+  - intent: size
+  - action: utter_size
+
+- rule: os
+  steps:
+  - intent: os
+  - action: utter_os
+
+- rule: model
+  steps:
+  - intent: model
+  - action: utter_model
+
+- rule: key_feature
+  steps:
+  - intent: key_feature
+  - action: utter_key_feature
+
+- rule: guarantee
+  steps:
+  - intent: guarantee
+  - action: utter_guarantee
+
+- rule: external_storage
+  steps:
+  - intent: external_storage
+  - action: utter_external_storage
+
+- rule: cpu
+  steps:
+  - intent: cpu
+  - action: utter_cpu
+
+- rule: communication
+  steps:
+  - intent: communication
+  - action: utter_communication
+
+- rule: camera
+  steps:
+  - intent: camera
+  - action: utter_camera
+
+- rule: body_structure
+  steps:
+  - intent: body_structure
+  - action: utter_body_structure
+
+- rule: bluetooth
+  steps:
+  - intent: bluetooth
+  - action: utter_bluetooth
+
+- rule: battery
+  steps:
+  - intent: battery
+  - action: utter_battery
+
