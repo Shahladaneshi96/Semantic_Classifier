@@ -1,0 +1,10 @@
+action_endpoint:
+ url: "http://localhost:5056/webhook"
+
+# tracker_store:
+#      type: mongod
+#      url: mongodb://localhost:27017
+#      db: rasa
+#      username: username
+#      password: password
+#      auth_source: admin

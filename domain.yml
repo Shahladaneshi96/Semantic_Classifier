@@ -1,0 +1,61 @@
+version: "3.1"
+
+intents:
+  - weight
+  - size
+  - os
+  - model
+  - key_feature
+  - guarantee
+  - external_storage
+  - cpu
+  - communication
+  - camera
+  - body_structure
+  - bluetooth
+  - battery
+
+responses:
+  utter_weight:
+  - text: "weight"
+
+  utter_size:
+  - text: "size"
+
+  utter_os:
+  - text: "os"
+
+  utter_model:
+  - text: "model"
+
+  utter_key_feature:
+  - text: "key_feature"
+
+  utter_guarantee:
+  - text: "guarantee"
+
+  utter_external_storage:
+  - text: "external_storage"
+
+  utter_cpu:
+  - text: "cpu"
+
+  utter_communication:
+  - text: "communication"
+
+  utter_camera:
+  - text: "camera"
+
+  utter_body_structure:
+  - text: "body_structure"
+
+  utter_bluetooth:
+  - text: "bluetooth"
+
+  utter_battery:
+  - text: "battery"
+
+
+session_config:
+  session_expiration_time: 1
+  carry_over_slots_to_new_session: False
